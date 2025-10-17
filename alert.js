@@ -1,0 +1,1 @@
+(()=>{let i=100;let t=45;let c=setInterval(()=>{alert(`⚠️ CPU Overheat Warning!\nTemp: ${t.toFixed(1)}°C\nCountdown: ${i}`);t+=Math.random()*2.5;i--;if(i<=0){clearInterval(c);alert("💥 SYSTEM FAILURE: Critical temperature reached.\nAutomatic shutdown initiated.");}},300);})();
